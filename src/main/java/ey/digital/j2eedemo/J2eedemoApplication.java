@@ -14,6 +14,11 @@ public class J2eedemoApplication {
 		SpringApplication.run(J2eedemoApplication.class, args);
 	}
 
+	@GetMapping("/")
+	public String home() {
+		return "welcome";
+	}
+
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return String.format("Hello %s!", name);
