@@ -7,15 +7,24 @@ import javax.persistence.Id;
 public class Developer {
 
 	@Id
-	private Integer id;
+	private int id;
 	private String name;
+	private String tech;
+
+	public String getTech() {
+		return tech;
+	}
+
+	public void setTech(String tech) {
+		this.tech = tech;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public Integer getId() {
 		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 	public String getName() {
