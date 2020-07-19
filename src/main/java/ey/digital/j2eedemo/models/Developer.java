@@ -1,4 +1,4 @@
-package ey.digital.j2eedemo;
+package ey.digital.j2eedemo.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

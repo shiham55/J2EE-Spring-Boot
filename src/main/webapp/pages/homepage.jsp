@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<h3>Hello ${name}</h3>
+	<h3>Hello ${dev.name}</h3>
   <script src="js/scripts.js"></script>
 </body>
 </html>
