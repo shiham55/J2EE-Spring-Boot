@@ -1,0 +1,1 @@
+insert into Developer values(101, 'shiham');
