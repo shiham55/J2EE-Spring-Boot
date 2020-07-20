@@ -2,17 +2,14 @@ package ey.digital.j2eedemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
 public class J2eedemoApplication {
 
-	static ConfigurableApplicationContext context;
-
 	public static void main(String[] args) {
-		context = SpringApplication.run(J2eedemoApplication.class, args);
+		SpringApplication.run(J2eedemoApplication.class, args);
 	}
 
 	/*

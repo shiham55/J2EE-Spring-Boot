@@ -54,6 +54,16 @@
       <groupId>org.springframework.boot</groupId>  
       <artifactId>spring-boot-starter-data-jpa</artifactId> 
     </dependency> 
+    <!-- jsp for azure -->
+    <dependency>
+        <groupId>org.apache.tomcat.embed</groupId>
+        <artifactId>tomcat-embed-jasper</artifactId>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+    </dependency>
   </dependencies>  
   <build> 
     <plugins> 
@@ -69,7 +79,7 @@
           <schemaVersion>V2</schemaVersion>
           <resourceGroup>j2eedemo-1595211740393-rg</resourceGroup>
           <appName>j2eedemo-1595211740393</appName>
-          <pricingTier>P1v2</pricingTier>
+          <pricingTier>B1</pricingTier>
           <region>westeurope</region>
           <runtime>
             <os>linux</os>
